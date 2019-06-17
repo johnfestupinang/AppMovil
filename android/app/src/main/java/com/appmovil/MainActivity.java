@@ -1,7 +1,6 @@
 package com.appmovil;
 
 import com.facebook.react.ReactActivity;
-import expo.modules.firebase.app.FirebaseAppPackage;
 
 public class MainActivity extends ReactActivity {
 
@@ -13,13 +12,4 @@ public class MainActivity extends ReactActivity {
     protected String getMainComponentName() {
         return "AppMovil";
     }
-
-    @Override
-    public List<Package> expoPackages() {
-    // Here you can add your own packages. 
-    return Arrays.<Package>asList(
-        new FirebaseAppPackage() // Include this. 
-    );
-    }
-
 }
