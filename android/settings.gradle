@@ -1,0 +1,9 @@
+rootProject.name = 'AppMovil'
+
+include ':expo-core'
+project(':expo-core').projectDir = new File(rootProject.projectDir, '../node_modules/expo-core/android')
+
+include ':app'
+
+
+
