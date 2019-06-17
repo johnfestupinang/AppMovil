@@ -7,8 +7,6 @@
     "test": "jest"
   },
   "dependencies": {
-    "expo-firebase-app": "^2.0.0",
-    "firebase": "^6.2.0",
     "react": "16.8.3",
     "react-native": "0.59.9"
   },
