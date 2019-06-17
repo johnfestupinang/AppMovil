@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "626819578523",
+    "firebase_url": "https://appmovil-75c39.firebaseio.com",
+    "project_id": "appmovil-75c39",
+    "storage_bucket": "appmovil-75c39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626819578523:android:06b514313ebf239c",
+        "android_client_info": {
+          "package_name": "com.appmovil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626819578523-68c51q1ne7ff96tsruf79tl2e20f0v8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6bpju_V4FJd0xZhS0iclEgipF37_j5LM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626819578523-68c51q1ne7ff96tsruf79tl2e20f0v8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
