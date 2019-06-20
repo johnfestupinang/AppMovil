@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-
-
-
 import {Text,View,StyleSheet,TextInput,TouchableHighlight} from 'react-native';
+//import * as firebase from '../node_modules/firebase';
+import firebase from '../Inicializador/firebase';
+import Dialog from "react-native-dialog";
+
 
 export default class Login extends Component {
     constructor(props){
@@ -16,28 +17,34 @@ export default class Login extends Component {
         this.login = this.login.bind(this);
     }
 
+   
+   
+
     async singUp(){
         try{
+            alert("Entro el try");
             await firebase.auth().createUserWithEmailAndPassword(this.state.email, this.state.password);
             this.setState({response: '¡Cuenta creada exitosamente!'});
         }catch(error){
+            alert ("Entro al catch");
+            alert ("Error SingUp: "+error.toString());
             this.setState({response: 'Error SingUp: '+error.toString()});
         }
     }
 
     async login(){
         try{
+            alert("Entro al try");
             await firebase.auth().signInWithEmailAndPassword(this.state.email,this.state.password);
-            this.setState({response: 'Bienvenido'});
+            alert(this.setState({response: 'Bienvenido'}));
         }catch(error){
+            alert("Entro al catch: "+error.toString());
             this.setState({response: 'Error Login: '+error.toString()});
         }
     }
 
     render() {
         return (
-
-            
 
             <View style={styles.container}>
                 <Text style={styles.textButton}> Logueo </Text>
@@ -66,7 +73,7 @@ export default class Login extends Component {
                 >
                     <Text
                         style={styles.textButton}
-                    >Login</Text>
+                    >Lógin</Text>
                 </TouchableHighlight>
 
                 <TouchableHighlight
@@ -82,6 +89,8 @@ export default class Login extends Component {
         );
     }
 }
+
+
 
 const styles = StyleSheet.create({
     container: {
