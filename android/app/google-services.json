@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "722496758829",
+    "firebase_url": "https://appmovil-c3789.firebaseio.com",
+    "project_id": "appmovil-c3789",
+    "storage_bucket": "appmovil-c3789.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722496758829:android:06b514313ebf239c",
+        "android_client_info": {
+          "package_name": "com.appmovil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722496758829-k8p51i3veicqip6q4p55visd27f8mj92.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appmovil",
+            "certificate_hash": "305e01a5cc07ad5410066061e73bd10f314a8e3d"
+          }
+        },
+        {
+          "client_id": "722496758829-sum2dncdfuus2mihntsc8cpj867htknu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZSjIuPLowqbQ93SDRPSUT1I8lhmKfimU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722496758829-sum2dncdfuus2mihntsc8cpj867htknu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
